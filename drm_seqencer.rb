@@ -13,6 +13,8 @@ end
 
 define :drm do
   
+  # 1 means play sound on the other hand 0 means do not play sound.
+  # You can make seqencer by changing in side array.
   cymArray = [1, 0, 1, 0, 1, 0, 1, 1]
   snrArray = [0, 1, 0, 0, 0, 1, 0, 1]
   kikArray = [0, 0, 1, 0, 0, 0, 1, 1]
